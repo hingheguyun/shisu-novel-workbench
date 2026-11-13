@@ -1,0 +1,8 @@
+# dsh-shisu: profile 补丁层
+#
+# 安装后由 dsh 的 bundle.patch 读取，把插件挂进组合。
+# 当前只有一行：插件本体。后续书库服务、视图、工具都由 lib/index.js 自己注册，
+# 不在这里展开。
+- insert:
+    - id: dsh-shisu
+      name: 'dsh-shisu'

@@ -1,0 +1,44 @@
+{
+  "name": "dsh-shisu",
+  "version": "0.0.1",
+  "description": "时素小说工作台 —— DSH 中文长篇小说创作工作台：以时间轴为骨架，按节点供给世界切片。",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "dsh-plugin",
+    "novel",
+    "webnovel",
+    "timeline",
+    "chinese"
+  ],
+  "license": "MIT",
+  "author": "hingheguyun",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hingheguyun/shisu-novel-workbench.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hingheguyun/shisu-novel-workbench/issues"
+  },
+  "homepage": "https://github.com/hingheguyun/shisu-novel-workbench#readme",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
